@@ -18,9 +18,6 @@ export default function api({ detailData }, props) {
     </div>
   )
 }
-
-
-
 export async function getServerSideProps(context) {
   const collegeId = context.query.college
   try{
